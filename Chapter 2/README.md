@@ -3,13 +3,13 @@
 -> Supervised learning is used to predict the outcome of a given event when we have input/output pairs. Our goal is to make predictions for new, never-seen-before-data.
 
 ## Classification and Regression
--> There are two major types of Supervised machine Learning problems, classification and regression. 
--> In classification, the goal is to predict a class label, which is a list of predifined possibilities.
+    -> There are two major types of Supervised machine Learning problems, classification and regression. 
+    -> In classification, the goal is to predict a class label, which is a list of predifined possibilities.
     Classification can be sometimes be separated into binary classification, which is the distinguishes between two classes, and multiclass which is more than two classes.
     Binary classification is a yes/no question, positive/negative class. 
--> In Regression, the goal is to predict a continous number/floating point number/real number.
+    -> In Regression, the goal is to predict a continous number/floating point number/real number.
 
--> However, do differentiate between the two, is to ask whether there is some kind of continuity in the output. For example the iris problem is classification since the species cannot change while in regression predicting income can change with time(iykyk).
+    -> However, do differentiate between the two, is to ask whether there is some kind of continuity in the output. For example the iris problem is classification since the species cannot            change while in regression predicting income can change with time(iykyk).
 
 ### Generaliaztion, Overfitting, and Underfitting
     -> If a model is able to make predictions from unseen data, we say it is able to generalize from the training data to the test data/set. The goal is build a model that is able to generalize as accurately as possible.
